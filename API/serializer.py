@@ -9,11 +9,13 @@ from API.serializers.profile import ProfileSerializer
 from API.serializers.role import RoleSerializer
 from API.serializers.user import UserSerializer
 from API.serializers.userSimple import UserSimpleSerializer
+from API.serializers.victim import VictimSerializer
 
 UserSerializer
 UserSimpleSerializer
 ProfileSerializer
 RoleSerializer
+VictimSerializer
 
 
 class MyTokenObtainPairSerializer(TokenObtainPairSerializer):
