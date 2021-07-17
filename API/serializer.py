@@ -10,12 +10,14 @@ from API.serializers.role import RoleSerializer
 from API.serializers.user import UserSerializer
 from API.serializers.userSimple import UserSimpleSerializer
 from API.serializers.victim import VictimSerializer
+from API.serializers.anamnesis import AnamnesisSerializer
 
 UserSerializer
 UserSimpleSerializer
 ProfileSerializer
 RoleSerializer
 VictimSerializer
+AnamnesisSerializer
 
 
 class MyTokenObtainPairSerializer(TokenObtainPairSerializer):
