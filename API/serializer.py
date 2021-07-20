@@ -11,6 +11,7 @@ from API.serializers.user import UserSerializer
 from API.serializers.userSimple import UserSimpleSerializer
 from API.serializers.victim import VictimSerializer
 from API.serializers.anamnesis import AnamnesisSerializer
+from API.serializers.psychologicalReport import PsychologicalReportSerializer
 
 UserSerializer
 UserSimpleSerializer
@@ -18,7 +19,7 @@ ProfileSerializer
 RoleSerializer
 VictimSerializer
 AnamnesisSerializer
-
+PsychologicalReportSerializer
 
 class MyTokenObtainPairSerializer(TokenObtainPairSerializer):
     def validate(self, attrs):
